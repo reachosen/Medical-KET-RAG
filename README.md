@@ -1,11 +1,11 @@
 # Medical-KET-RAG
 
 Implemented the Case
-ICU physician hands off a case ("Investigate Meropenem failure for Patient X and recent sepsis cohort") to a KET-RAG sandbox, which pulls the latest articles (e.g., PubMed), patient data (Chronicles), and hospital trends (Clarity/Caboodle) to generate an enriched test case suggesting an alternative antibiotic (e.g., Colistin) within 4 hours.
+ICU physician hands off a case ("Investigate Meropenem failure for Patient X and recent sepsis cohort") to a KET-RAG sandbox, which pulls the latest articles (e.g., PubMed), patient data (Chronicles), and hospital trends (Clarity/Caboodle) to generate an enriched test case suggesting an alternative antibiotic (e.g., Colistin) within 4 hours.<br>
 
-Success Criteria:
-
-Generates a test case with preconditions, steps, and outcomes reflecting resistance insights. Incorporates a mock article (e.g., "Colistin for NDM-1 resistance"). Delivers results via a simulated Clarity report, avoiding real-time disruption. Stays under 300 lines, with comments and outputs.
+Success Criteria:<br>
+<br>
+Generates a test case with preconditions, steps, and outcomes reflecting resistance insights. Incorporates a mock article (e.g., "Colistin for NDM-1 resistance"). Delivers results via a simulated Clarity report, avoiding real-time disruption. Stays under 300 lines, with comments and outputs.<br>
 
 Key Components Physician Handoff: Simulated via physician_handoff(), mimics an ICU physician submitting a case through Epic Clarity.
 Data Pull:
