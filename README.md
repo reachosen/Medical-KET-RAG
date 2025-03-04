@@ -7,7 +7,8 @@ Success Criteria:<br>
 <br>
 Generates a test case with preconditions, steps, and outcomes reflecting resistance insights. Incorporates a mock article (e.g., "Colistin for NDM-1 resistance"). Delivers results via a simulated Clarity report, avoiding real-time disruption. Stays under 300 lines, with comments and outputs.<br>
 
-Key Components 
+Key Components:
+
 <br>Physician Handoff: Simulated via physician_handoff(), mimics an ICU physician submitting a case through Epic Clarity.<br>
 Data Pull:Mock CHUNKS includes patient data (Chronicles), trends (Caboodle), and a recent article (PubMed), reflecting the handoff’s scope.<br>
 Ranking (Layer 1):simulate_pagerank() prioritizes resistance-related chunks (e.g., article, patient data), building a sparse graph.<br>
